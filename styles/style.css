@@ -2,11 +2,6 @@
 
 .page {
   background-color: var(--bg-color, #000028);
-  background-image: var(--bg-image);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .title-decor {
@@ -29,6 +24,10 @@
   align-items: center;
   min-height: 668px;
   padding: 10px;
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
   block-size: 100vh;
 }
 
